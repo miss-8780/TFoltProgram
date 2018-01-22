@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_sticky_header_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#EFFAE7"
+        android:gravity="center"
+        android:text="吸顶文本1" />
+
+    <!--<include layout="@layout/layout_sticky_header_view"/>-->
+</FrameLayout>
